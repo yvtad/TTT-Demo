@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?totaltestVersion 18.3.3.v20180503-1515_18?>
-<!--Topaz for Total Test 18.3.3.v20180503-1515_18 Jun 5, 2018 12:20:58 PM-->
+<?totaltestVersion 19.2.1.v20180920-0235_707?>
+<!--Topaz for Total Test 19.2.1.v20180920-0235_707 Nov 5, 2018 6:17:15 PM-->
 <testExecutions version="1">
-  <file path="C:\Users\hboyxn0\Git\CWKTVSKS_TT_repo\CWKTVSKS_TT\Unit Test\Scenarios\CWKTVSKS_Scenario.testscenario">
+  <file path="C:\Users\hboyxn0\Git\repository\CWKTVSKS_TT\Unit Test\Scenarios\CWKTVSKS_Scenario.testscenario">
     <testCase duration="0" name="CWKTVSKS_TT.CWKTVSKS_Scenario.00001: CWKTVSKSCase1.00001: Check for PARM_LTH"/>
     <testCase duration="0" name="CWKTVSKS_TT.CWKTVSKS_Scenario.00001: CWKTVSKSCase1.00002: Check for PARM_DATA"/>
     <testCase duration="0" name="CWKTVSKS_TT.CWKTVSKS_Scenario.00001: CWKTVSKSCase1.00003: Check for GRAND_TOTAL"/>
     <testCase duration="0" name="CWKTVSKS_TT.CWKTVSKS_Scenario.00001: CWKTVSKSCase1.00004: Check for TOTAL_RECORD"/>
   </file>
-  <file path="C:\Users\hboyxn0\Git\CWKTVSKS_TT_repo\CWKTVSKS_TT\Unit Test\Stubs\CWKTVSKS_RPTFILE_WRITE_01.stub">
+  <file path="C:\Users\hboyxn0\Git\repository\CWKTVSKS_TT\Unit Test\Stubs\CWKTVSKS_RPTFILE_WRITE_01.stub">
     <testCase duration="0" name="CWKTVSKS_TT.CWKTVSKS_Scenario.00001: CWKTVSKSCase1.CWKTVSKS_RPTFILE_WRITE_01.00001: RPTFILE assertion.00001: Check for BLANK_LINE"/>
     <testCase duration="0" name="CWKTVSKS_TT.CWKTVSKS_Scenario.00001: CWKTVSKSCase1.CWKTVSKS_RPTFILE_WRITE_01.00002: RPTFILE assertion.00001: Check for BLANK_LINE"/>
     <testCase duration="0" name="CWKTVSKS_TT.CWKTVSKS_Scenario.00001: CWKTVSKSCase1.CWKTVSKS_RPTFILE_WRITE_01.00003: RPTFILE assertion.00001: Check for BLANK_LINE"/>
