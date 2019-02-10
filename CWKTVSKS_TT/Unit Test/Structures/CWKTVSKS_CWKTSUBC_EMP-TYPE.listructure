@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?totaltestVersion 19.3.1.v20181214-1343_790?>
-<!--Topaz for Total Test 19.3.1.v20181214-1343_790 Feb 10, 2019 10:39:43 AM-->
-<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Unit%20Test/Structures/CWKTVSKS_CWKTDATE_END-OF-MONTH-SW.listructure">
-  <listructure:struct id="END_OF_MONTH_SW" name="END_OF_MONTH_SW">
+<!--Topaz for Total Test 19.3.1.v20181214-1343_790 Feb 10, 2019 10:40:02 AM-->
+<listructure:listructure xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" id="Unit%20Test/Structures/CWKTVSKS_CWKTSUBC_EMP-TYPE.listructure">
+  <listructure:struct id="EMP_TYPE" name="EMP_TYPE">
     <properties:properties>
       <properties:property name="displayLength" type="number">1</properties:property>
       <properties:property name="platform" type="string">mainframe</properties:property>
       <properties:property name="storageLength" type="number">1</properties:property>
     </properties:properties>
-    <listructure:string id="END_OF_MONTH_SW.END_OF_MONTH_SW" initial="&quot;N&quot;" length="1" name="END_OF_MONTH_SW">
+    <listructure:string id="EMP_TYPE.EMP_TYPE" length="1" name="EMP_TYPE">
       <properties:properties>
         <properties:property name="picture" type="string">X</properties:property>
-        <properties:property name="value">&quot;N&quot;</properties:property>
         <properties:property name="displayLength" type="number">1</properties:property>
         <properties:property name="platform" type="string">mainframe</properties:property>
         <properties:property name="liType" type="string">char</properties:property>

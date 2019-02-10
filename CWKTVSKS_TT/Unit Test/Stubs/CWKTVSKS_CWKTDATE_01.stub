@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" encoding="1047" id="Unit%20Test/Stubs/CWKTVSKS_CWKTDATE_01.stub" stubtype="Program" target="CWKTDATE" token="10000">
-  <stub:description>Created: May 21, 2018 1:07:40 PM</stub:description>
+<stub:stub xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:stub="http://www.compuware.com/model/xml/stub" alias="" disposition="SHR" encoding="1047" id="Unit%20Test/Stubs/CWKTVSKS_CWKTDATE_01.stub" stubtype="Program" target="CWKTDATE" token="10000">
+  <stub:description>Created: Feb 10, 2019 10:39:42 AM</stub:description>
   <stub:stubdata id="0" name="CWKTDATE">
     <stub:interface>../Interfaces/CWKTVSKS_CWKTDATE.interface#Unit%20Test/Interfaces/CWKTVSKS_CWKTDATE.interface</stub:interface>
     <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_END-OF-MONTH-SW.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_END-OF-MONTH-SW.listructure">
@@ -22,7 +22,7 @@
     <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F1F8F0F5F2F1</properties:property>
+          <properties:property name="value" type="string">F1F9F0F2F1F0</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:stringType ../Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE.TODAYS_DATE" id="output0.arg2.TODAYS_DATE.TODAYS_DATE" offset="0"/>
@@ -51,7 +51,7 @@
     <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
         <properties:properties>
-          <properties:property name="value" type="string">F2F6</properties:property>
+          <properties:property name="value" type="string">F2F9</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:numberType ../Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="output1.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
@@ -59,7 +59,7 @@
     <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F1F8F0F5F2F1</properties:property>
+          <properties:property name="value" type="string">F1F9F0F2F1F0</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:stringType ../Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE.TODAYS_DATE" id="output1.arg2.TODAYS_DATE.TODAYS_DATE" offset="0"/>
@@ -67,7 +67,7 @@
     <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F9F1F0F7F2F0</properties:property>
+          <properties:property name="value" type="string">F8F9F0F7F2F0</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:numberType ../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="output1.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="0"/>
@@ -88,7 +88,7 @@
     <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
         <properties:properties>
-          <properties:property name="value" type="string">F3F1</properties:property>
+          <properties:property name="value" type="string">F3F7</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:numberType ../Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="output2.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
@@ -96,7 +96,7 @@
     <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F1F8F0F5F2F1</properties:property>
+          <properties:property name="value" type="string">F1F9F0F2F1F0</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:stringType ../Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE.TODAYS_DATE" id="output2.arg2.TODAYS_DATE.TODAYS_DATE" offset="0"/>
@@ -104,7 +104,7 @@
     <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F8F7F0F3F3F1</properties:property>
+          <properties:property name="value" type="string">F8F1F1F1F1F1</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:numberType ../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="output2.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="0"/>
@@ -125,7 +125,7 @@
     <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
         <properties:properties>
-          <properties:property name="value" type="string">F3F2</properties:property>
+          <properties:property name="value" type="string">F2F7</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:numberType ../Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="output3.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
@@ -133,7 +133,7 @@
     <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F1F8F0F5F2F1</properties:property>
+          <properties:property name="value" type="string">F1F9F0F2F1F0</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:stringType ../Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE.TODAYS_DATE" id="output3.arg2.TODAYS_DATE.TODAYS_DATE" offset="0"/>
@@ -141,7 +141,7 @@
     <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F8F6F0F4F0F5</properties:property>
+          <properties:property name="value" type="string">F9F1F0F9F1F3</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:numberType ../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="output3.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="0"/>
@@ -162,7 +162,7 @@
     <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
         <properties:properties>
-          <properties:property name="value" type="string">F3F7</properties:property>
+          <properties:property name="value" type="string">F3F1</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:numberType ../Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="output4.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
@@ -170,7 +170,7 @@
     <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F1F8F0F5F2F1</properties:property>
+          <properties:property name="value" type="string">F1F9F0F2F1F0</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:stringType ../Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE.TODAYS_DATE" id="output4.arg2.TODAYS_DATE.TODAYS_DATE" offset="0"/>
@@ -178,7 +178,7 @@
     <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F8F1F0F2F2F9</properties:property>
+          <properties:property name="value" type="string">F8F7F0F3F3F1</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:numberType ../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="output4.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="0"/>
@@ -199,7 +199,7 @@
     <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
         <properties:properties>
-          <properties:property name="value" type="string">F2F4</properties:property>
+          <properties:property name="value" type="string">F3F6</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:numberType ../Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="output5.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
@@ -207,7 +207,7 @@
     <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F1F8F0F5F2F1</properties:property>
+          <properties:property name="value" type="string">F1F9F0F2F1F0</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:stringType ../Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE.TODAYS_DATE" id="output5.arg2.TODAYS_DATE.TODAYS_DATE" offset="0"/>
@@ -215,7 +215,7 @@
     <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F9F3F0F9F3F0</properties:property>
+          <properties:property name="value" type="string">F8F2F0F8F3F0</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:numberType ../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="output5.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="0"/>
@@ -236,7 +236,7 @@
     <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
         <properties:properties>
-          <properties:property name="value" type="string">F3F4</properties:property>
+          <properties:property name="value" type="string">F3F3</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:numberType ../Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="output6.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
@@ -244,7 +244,7 @@
     <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F1F8F0F5F2F1</properties:property>
+          <properties:property name="value" type="string">F1F9F0F2F1F0</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:stringType ../Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE.TODAYS_DATE" id="output6.arg2.TODAYS_DATE.TODAYS_DATE" offset="0"/>
@@ -252,7 +252,7 @@
     <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F8F4F0F3F1F7</properties:property>
+          <properties:property name="value" type="string">F8F6F0F1F0F2</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:numberType ../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="output6.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="0"/>
@@ -273,7 +273,7 @@
     <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
         <properties:properties>
-          <properties:property name="value" type="string">F3F3</properties:property>
+          <properties:property name="value" type="string">F2F6</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:numberType ../Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="output7.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
@@ -281,7 +281,7 @@
     <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F1F8F0F5F2F1</properties:property>
+          <properties:property name="value" type="string">F1F9F0F2F1F0</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:stringType ../Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE.TODAYS_DATE" id="output7.arg2.TODAYS_DATE.TODAYS_DATE" offset="0"/>
@@ -289,7 +289,7 @@
     <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F8F4F6F1F1F7</properties:property>
+          <properties:property name="value" type="string">F9F2F1F2F3F1</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:numberType ../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="output7.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="0"/>
@@ -310,7 +310,7 @@
     <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
         <properties:properties>
-          <properties:property name="value" type="string">F3F3</properties:property>
+          <properties:property name="value" type="string">F3F7</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:numberType ../Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="output8.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
@@ -318,7 +318,7 @@
     <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F1F8F0F5F2F1</properties:property>
+          <properties:property name="value" type="string">F1F9F0F2F1F0</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:stringType ../Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE.TODAYS_DATE" id="output8.arg2.TODAYS_DATE.TODAYS_DATE" offset="0"/>
@@ -326,7 +326,7 @@
     <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F8F4F2F1F3F4</properties:property>
+          <properties:property name="value" type="string">F8F1F1F0F1F5</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:numberType ../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="output8.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="0"/>
@@ -347,7 +347,7 @@
     <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
         <properties:properties>
-          <properties:property name="value" type="string">F3F3</properties:property>
+          <properties:property name="value" type="string">F3F6</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:numberType ../Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="output9.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
@@ -355,7 +355,7 @@
     <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F1F8F0F5F2F1</properties:property>
+          <properties:property name="value" type="string">F1F9F0F2F1F0</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:stringType ../Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE.TODAYS_DATE" id="output9.arg2.TODAYS_DATE.TODAYS_DATE" offset="0"/>
@@ -363,7 +363,7 @@
     <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F8F4F3F3F7F1</properties:property>
+          <properties:property name="value" type="string">F8F2F0F9F3F0</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:numberType ../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="output9.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="0"/>
@@ -384,7 +384,7 @@
     <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
         <properties:properties>
-          <properties:property name="value" type="string">F5F5</properties:property>
+          <properties:property name="value" type="string">F2F5</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:numberType ../Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="output10.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
@@ -392,7 +392,7 @@
     <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F1F8F0F5F2F1</properties:property>
+          <properties:property name="value" type="string">F1F9F0F2F1F0</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:stringType ../Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE.TODAYS_DATE" id="output10.arg2.TODAYS_DATE.TODAYS_DATE" offset="0"/>
@@ -400,7 +400,7 @@
     <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F6F2F0F7F1F3</properties:property>
+          <properties:property name="value" type="string">F9F3F0F4F0F5</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:numberType ../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="output10.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="0"/>
@@ -421,7 +421,7 @@
     <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
         <properties:properties>
-          <properties:property name="value" type="string">F4F0</properties:property>
+          <properties:property name="value" type="string">F3F5</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:numberType ../Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="output11.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
@@ -429,7 +429,7 @@
     <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F1F8F0F5F2F1</properties:property>
+          <properties:property name="value" type="string">F1F9F0F2F1F0</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:stringType ../Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE.TODAYS_DATE" id="output11.arg2.TODAYS_DATE.TODAYS_DATE" offset="0"/>
@@ -437,12 +437,86 @@
     <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure">
       <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
         <properties:properties>
-          <properties:property name="value" type="string">F7F7F0F7F1F2</properties:property>
+          <properties:property name="value" type="string">F8F3F0F6F1F4</properties:property>
         </properties:properties>
       </stub:data>
       <stub:data baseType="listructure:numberType ../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="output11.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="0"/>
       <stub:data baseType="listructure:numberType ../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="output11.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="2"/>
       <stub:data baseType="listructure:numberType ../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="output11.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="4"/>
+    </stub:output>
+  </stub:stubdata>
+  <stub:stubdata id="12" name="CWKTDATE">
+    <stub:interface>../Interfaces/CWKTVSKS_CWKTDATE.interface#Unit%20Test/Interfaces/CWKTVSKS_CWKTDATE.interface</stub:interface>
+    <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_END-OF-MONTH-SW.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTVSKS_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW.END_OF_MONTH_SW" id="output12.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F3F0</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="output12.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F9F0F2F1F0</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE.TODAYS_DATE" id="output12.arg2.TODAYS_DATE.TODAYS_DATE" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F8F8F0F2F2F9</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="output12.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="output12.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="2"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="output12.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="4"/>
+    </stub:output>
+  </stub:stubdata>
+  <stub:stubdata id="13" name="CWKTDATE">
+    <stub:interface>../Interfaces/CWKTVSKS_CWKTDATE.interface#Unit%20Test/Interfaces/CWKTVSKS_CWKTDATE.interface</stub:interface>
+    <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_END-OF-MONTH-SW.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_END-OF-MONTH-SW.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW" id="arg0.END_OF_MONTH_SW">
+        <properties:properties>
+          <properties:property name="value" type="string">D5</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTVSKS_CWKTDATE_END-OF-MONTH-SW.listructure#END_OF_MONTH_SW.END_OF_MONTH_SW" id="output13.arg0.END_OF_MONTH_SW.END_OF_MONTH_SW" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE" id="arg1.YRS_OF_SERVICE">
+        <properties:properties>
+          <properties:property name="value" type="string">F2F4</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTVSKS_CWKTDATE_YRS-OF-SERVICE.listructure#YRS_OF_SERVICE.YRS_OF_SERVICE" id="output13.arg1.YRS_OF_SERVICE.YRS_OF_SERVICE" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE" id="arg2.TODAYS_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F1F9F0F2F1F0</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:stringType ../Structures/CWKTVSKS_CWKTDATE_TODAYS-DATE.listructure#TODAYS_DATE.TODAYS_DATE" id="output13.arg2.TODAYS_DATE.TODAYS_DATE" offset="0"/>
+    </stub:output>
+    <stub:output listructure="../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#Unit%20Test/Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure">
+      <stub:data baseType="listructure:structType ../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE" id="arg3.WA_EMP_HIRE_DATE">
+        <properties:properties>
+          <properties:property name="value" type="string">F9F4F0F5F0F1</properties:property>
+        </properties:properties>
+      </stub:data>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" id="output13.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_YY" offset="0"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" id="output13.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_MM" offset="2"/>
+      <stub:data baseType="listructure:numberType ../Structures/CWKTVSKS_CWKTDATE_WA-EMP-HIRE-DATE.listructure#WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" id="output13.arg3.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DATE.WA_EMP_HIRE_DD" offset="4"/>
     </stub:output>
   </stub:stubdata>
 </stub:stub>
