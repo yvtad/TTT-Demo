@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 19.3.2.v20190211-1724_163?>
+<!--Topaz for Total Test 19.3.2.v20190211-1724_163 Feb 19, 2019 10:56:16 AM-->
+<testscenario:testscenario xmlns:checkconditions="http://www.compuware.com/model/xml/checkconditions" xmlns:listructure="http://www.compuware.com/model/xml/listructure" xmlns:properties="http://www.compuware.com/model/xml/properties" xmlns:testcase="http://www.compuware.com/model/xml/testcase" xmlns:testscenario="http://www.compuware.com/model/xml/testscenario" alias="" id="Unit%20Test/Scenarios/CWKTVSKS_Scenario.testscenario">
+  <testscenario:description></testscenario:description>
+  <testscenario:testcases>
+    <testscenario:testcase alias="" csect="CWKTVSKS" encoding="1047" entrypoint="CWKTVSKS" id="Unit%20Test/Scenarios/CWKTVSKS_Scenario.testscenario%23CWKTVSKSCase1" target="CWKTVSKS">
+      <testcase:description></testcase:description>
+      <testcase:ddio>SALESSUP.YXN1.DEV1.LOAD</testcase:ddio>
+      <testcase:ddiotype>EMBEDDED</testcase:ddiotype>
+      <testcase:targetCaptureCompileTime>1550591489000</testcase:targetCaptureCompileTime>
+      <testcase:interface>../Interfaces/CWKTVSKS.interface#Unit%20Test/Interfaces/CWKTVSKS.interface</testcase:interface>
+      <testcase:input listructure="../Structures/CWKTVSKS_PARMINFO.listructure#Unit%20Test/Structures/CWKTVSKS_PARMINFO.listructure">
+        <testcase:data baseType="listructure:structType ../Structures/CWKTVSKS_PARMINFO.listructure#PARMINFO" id="arg0.PARMINFO">
+          <properties:properties>
+            <properties:property name="value" type="string">0005F0F0F0F0F100000000000000</properties:property>
+            <properties:property name="expectedValue" type="string">0005F0F0F0F0F10000B136F0F1F7</properties:property>
+          </properties:properties>
+        </testcase:data>
+      </testcase:input>
+      <testcase:checkconditions>
+        <checkconditions:complexCheckcondition message="Complex check condition failed" name="Complex check condition"/>
+      </testcase:checkconditions>
+      <testcase:stubs>
+        <testcase:stub>../Stubs/CWKTVSKS_CWKTSUBC_01.stub#Unit%20Test/Stubs/CWKTVSKS_CWKTSUBC_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWKTVSKS_CWKTDATE_01.stub#Unit%20Test/Stubs/CWKTVSKS_CWKTDATE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWKTVSKS_EMPFILE_FILE_01.stub#Unit%20Test/Stubs/CWKTVSKS_EMPFILE_FILE_01.stub</testcase:stub>
+        <testcase:stub>../Stubs/CWKTVSKS_RPTFILE_FILE_01.stub#Unit%20Test/Stubs/CWKTVSKS_RPTFILE_FILE_01.stub</testcase:stub>
+      </testcase:stubs>
+    </testscenario:testcase>
+  </testscenario:testcases>
+</testscenario:testscenario>
