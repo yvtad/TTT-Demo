@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="5b508b8a787be73b59238d38" logLevel="LOG" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="NONE" jobInfoInterval="3" useRepository="false">
+  <ExtensionData>
+    <Parameter key="unittest.loadlibraries">
+      <Value>SALESSUP.YXN1.DEV1.LOAD</Value>
+    </Parameter>
+    <Parameter key="unittest.staticjcl">
+      <Value>../JCL/Runner.jcl</Value>
+    </Parameter>
+  </ExtensionData>
+  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="CWKTVSKS" caseInsensitiveCompare="false" path="CWKTVSKS_Scenario.testscenario">
+    <Test>
+      <Unittest testscenariopath="CWKTVSKS_Scenario.testscenario" moduleName="CWKTVSKS" />
+    </Test>
+  </XaUnit>
+</ExecutionContext>

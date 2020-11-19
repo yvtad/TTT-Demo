@@ -1,0 +1,52 @@
+10:18:10.805 INFO      TOPAZ            ***************************************
+10:18:10.805 INFO      TOPAZ            ** Execution from Topaz with options **
+10:18:10.805 INFO      TOPAZ            ***************************************
+10:18:10.805 INFO      TOPAZ            Using repository: true
+10:18:10.805 INFO      TOPAZ            Repository URL: http://cwcc.compuware.com:2020/totaltestapi/
+10:18:10.805 INFO      TOPAZ            ***************************************
+10:18:10.807 INFO      Engine           Test Scenario execution started
+10:18:10.808 INFO      Engine           Using context settings:
+  Engine Version                : 20.4
+  Environment id                : 5b508b8a787be73b59238d38
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : cwcc.nasa.cpwr.corp
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : HBOYXN0
+  Use Repository Server         : false
+10:18:10.808 INFO      Engine           Setting variables from context and context data extensions
+10:18:10.808 INFO      Engine             id: environmentId      value: 5b508b8a787be73b59238d38
+10:18:10.810 INFO      Engine             id: environmentType    value: BATCH
+10:18:10.810 INFO      Engine             id: userId             value: HBOYXN0
+10:18:10.810 INFO      Engine             id: accountingInfo     value: 
+10:18:10.811 INFO      Engine             id: unittest.loadlibraries  value: SALESSUP.YXN1.DEV1.LOAD
+10:18:10.811 INFO      Engine             id: unittest.staticjcl  value: ../JCL/Runner.jcl
+10:18:10.812 INFO      Unittest         Interpreting Unittest of module: CWKTVSKS testscenario path: CWKTVSKS_Scenario.testscenario
+10:18:10.812 INFO      Unittest         Static JCL is being used, path is: C:/Users/hboyxn0/Compuware/Workspace200402-Daily/TTT_CWKTVSKS_JSON/Unit Test/JCL/Runner.jcl
+10:18:10.846 DEBUG     Unittest         Getting TTTRUNNR loadlib version
+10:18:10.977 DEBUG     Unittest         Custom JCL skeleton used, since TTTRUNNER.jcl exists in the JCL directory: C:/Users/hboyxn0/Compuware/Workspace200402-Daily/TTT_CWKTVSKS_JSON/Unit Test/JCL/Runner.jcl
+10:18:10.981 INFO      Unittest         Using local JCL skeleton to submit JCL
+10:18:10.983 DEBUG     Unittest         Building binary files for test scenario: CWKTVSKS_Scenario.testscenario in project Unit Test
+10:18:15.012 DEBUG     Unittest         Generic JCL skeleton used from environment/connection
+10:18:15.023 INFO      CWCC Batch       Sending Job execution request to Host 
+10:18:15.045 DEBUG     CWCC Batch       Executing Job through HCI
+10:18:15.235 DEBUG     CWCC Batch       Job submitted with jobId: J0952780 jobName:HBOYXN0A
+10:18:20.300 INFO      CWCC Batch       Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job HBOYXN0A(J0952780) ended with return code: 0000
+  Job name       : HBOYXN0A
+  Job id         : J0952780
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+10:18:20.301 DEBUG     CWCC Batch       Setting execution variable 'jobid' to J0952780
+10:18:20.301 DEBUG     CWCC Batch       Setting execution variable 'jobname' to HBOYXN0A
+10:18:20.301 DEBUG     CWCC Batch       Setting execution variable 'returncode' to 0000
+10:18:21.019 INFO      Unittest         Execution completed
+10:18:21.019 INFO      Engine           Test Scenario execution ended
